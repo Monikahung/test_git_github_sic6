@@ -15,5 +15,11 @@ def pembagian(a,b):
         return 0
     return a / b
 
+def perpangkatan(a,b):
+    return a ** b
+
+def modulus(a,b):
+    return a % b
+
 result = pembagian(a, b)
 print(result) # type: ignore
